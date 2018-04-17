@@ -1,0 +1,35 @@
+// variables
+
+@import "variables";
+
+// mixins
+
+@import "mixins";
+
+// base
+
+@import "base";
+
+// media queries
+
+@import "media-queries";
+
+// fonts
+
+@import "fonts";
+
+// blocks
+
+@import "blocks/page-header";
+@import "blocks/main-nav";
+@import "blocks/page-main";
+@import "blocks/download";
+@import "blocks/download-button";
+@import "blocks/hero";
+@import "blocks/benefits";
+@import "blocks/copyright";
+@import "blocks/offers";
+@import "blocks/photos";
+@import "blocks/photos-item";
+@import "blocks/page-footer";
+@import "blocks/social";

@@ -1,0 +1,21 @@
+.photos-item__description {
+  background: $gray;
+}
+
+.photos-item__author {
+  @include text ($ff, $dark-blue, 14px, 700, 24px);
+}
+
+.photos-item__time {
+  @include text ($ff, $dark-blue, 12px, 300, 24px);
+  text-transform: uppercase;
+}
+
+.photos-item__text {
+  @include text ($ff, $dark-blue, 14px, 500, 24px);
+}
+
+.photos-item__likes {
+  @include text ($ff, $pink, 12px, 500, 24px);
+  text-transform: uppercase;
+}
