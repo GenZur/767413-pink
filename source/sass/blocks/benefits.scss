@@ -1,0 +1,24 @@
+.benefits {
+  background: $gray;
+}
+
+.benefits__list {
+  list-style: none;
+}
+
+.benefits__item {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.benefits__image {
+  margin-top: 30px;
+}
+
+.benefits__title {
+  @include text ($ff, $black, 18px, 700, 24px);
+}
+
+.benefits__text {
+  @include text ($ff, $dark-blue, 14px, 300, 24px);
+}

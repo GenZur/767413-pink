@@ -1,0 +1,7 @@
+.offers {
+  background: $white;
+}
+
+.offers__title {
+  @include text ($ff, $dark-blue, 24px, 300, auto);
+}

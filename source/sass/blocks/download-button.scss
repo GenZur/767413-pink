@@ -1,0 +1,8 @@
+.download-button {
+  @include text ($ff, $white, 18px, 700, 18px);
+  text-decoration: none;
+  border: 3px solid $white;
+  border-radius: 50px;
+  padding: 10px 30px;
+  margin: 15px;
+}

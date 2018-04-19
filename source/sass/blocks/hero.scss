@@ -1,0 +1,21 @@
+.hero {
+  background: url("../img/bg-back-mobile@1x.jpg");
+  background-color: $blue;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__title {
+  @include text ($ff, $white, 24px, 300, auto);
+  padding-top: 35px;
+}
+
+.hero__description {
+  background: $white;
+  height: 180px;
+}
+
+.hero__text {
+  @include text ($ff, $dark-blue, 14px, 500, 30px);
+  padding-top: 50px;
+}
