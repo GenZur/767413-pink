@@ -10,7 +10,7 @@
 
 // pseudo
 
-@mixin pseudo($display: block, $pos: absolute, $content: ''){
+@mixin pseudo($display: block, $pos: absolute, $content: "") {
   content: $content;
   display: $display;
   position: $pos;
@@ -21,12 +21,15 @@
 @mixin linx ($link, $visit, $hover, $active) {
   a {
     color: $link;
+
     &:visited {
       color: $visit;
     }
+
     &:hover {
       color: $hover;
     }
+
     &:active {
       color: $active;
     }
